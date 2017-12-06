@@ -1598,5 +1598,6 @@ jwfm ptjwrbl hhuv uolz adyweh qpj wxyogp igvnojq jmfw pqs fsnirby`,
 -1042
 -329
 -400
--297`
+-297`,
+    6: '10\t3\t15\t10\t5\t15\t5\t15\t9\t2\t5\t8\t5\t2\t3\t6'
 }
