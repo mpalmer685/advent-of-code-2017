@@ -1,6 +1,6 @@
 const { expect } = require('chai')
 
-module.exports = function testSolution({ solution, inputs, extraArguments = [], expectedOutputs, timeout }) {
+function testSolution({ solution, inputs, extraArguments = [], expectedOutputs, timeout }) {
     expect(inputs).to.have.lengthOf(expectedOutputs.length)
 
     inputs.forEach((input, index) => {
@@ -12,3 +12,7 @@ module.exports = function testSolution({ solution, inputs, extraArguments = [], 
         })
     })
 }
+
+testSolution.skip = function() {}
+
+module.exports = testSolution
