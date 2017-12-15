@@ -1,7 +1,7 @@
 const { part1, part2 } = require('../puzzles/day14')
 const testSolution = require('./testSolution')
 
-describe('Day 14', () => {
+describe.skip('Day 14', () => {
     describe('Part 1', () => {
         testSolution({
             solution: part1,
